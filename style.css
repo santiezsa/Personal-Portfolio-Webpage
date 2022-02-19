@@ -1,0 +1,348 @@
+/* FUENTE */
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Inter:wght@300&family=Lato:wght@300&family=Open+Sans:wght@300&display=swap');
+body {
+  font-family: Inter;
+  background-color: black;
+  line-height: 1.4;
+  width: 100%;
+}
+
+/* FUENTE */
+
+/* INICIO: Sección de projects */
+
+
+
+
+/* FIN: Sección de bienvenida */
+
+
+
+/*--- INICIO: Sección de imagen de fondo */
+.background_grid {
+  display: grid;
+  
+  justify-content: center;
+  allign-items: center;
+  
+grid-template-columns: 100%;
+  grid-gap: 0px; 
+  
+  width: 100%;
+  height: auto;
+  
+  z-index: -2;
+  
+  border-bottom: 1px solid white;
+  border-bottom-width: 2px;
+}
+
+#background1 {
+  grid-column: 1;
+  grid-row: 2;
+  padding: 25px 500px;
+  z-index: -1;
+}
+
+#background2 {
+  grid-column: 1;
+  grid-row: 2;
+  z-index: -1;  
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+.background-stretch {
+  width: 100%;
+  height: auto;
+}
+
+/*--- FINAL: Sección de imagen de fondo */
+
+
+
+/* INICIO: Sección de barra de navegación (NAV BAR) */
+
+header {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  
+  height: 25px;
+  padding: 15px 90em;
+  
+  display: flex;
+  justify-content: space-betweeen;
+  allign-items: center;
+  
+  background-color: black;
+  opacity: 0.8;
+  z-index: 5;
+}
+
+header h3{
+  color: white;
+  font-size: 18px;
+  
+  position: fixed;
+  top: 1px;
+  width: 100%; 
+}
+
+header a {
+  margin-right: 2em;
+  color: silver;
+  
+  text-decoration: none;
+  z-index: 5;
+}
+
+header a:hover{
+margin-right: 2em;
+  color: red;
+  
+  text-decoration: underline;
+  z-index: 5;
+}
+
+#codinglogo {
+  height: 50px;
+  width: 50px;
+  top: 0px;
+  
+  position: fixed;
+  padding: 0px 400px; 
+  z-index: -5;
+} 
+
+/* FINAL: Sección de barra de navegación (NAV BAR) */
+
+/*------------------------------*/
+
+/* INICIO: Sección de bienvenida */
+
+#welcome-section {
+  padding-top: 0px;
+  margin-top: 0px;
+  display: block;
+  height: 100vh;  
+}
+
+#welcome-section h1{
+  text-align: left;
+  font-size: 3vw;
+  color: silver;
+  
+  position: absolute;
+  top: 5vw;
+  left: 5vw;
+}
+
+#welcome-section h2{
+  text-align: left;
+  font-size: 2.5vw;
+  color: silver;
+  position: absolute;
+  top: 9.5vw;
+  padding: 0px 120px;
+}
+
+#welcome-section h3{
+  text-align: left;
+  font-size: 1.5vw;
+  color: silver;
+  position: absolute;
+  top: 15vw;
+  padding: 0px 140px;
+}
+
+/* FINAL: Sección de bienvenida */
+
+/* INICIO: Sección de proyectos */
+
+#projects {
+  width: 100%;
+  height: auto;
+  
+  position: absolute;
+  top: 46vw;
+  left: 0vw;
+  z-index: 2;
+  
+  border-bottom: 1px solid white;
+  border-bottom-width: 2px;
+}
+
+#projects h3{
+  text-align: left;
+  font-size: 3vw;
+  color: white;
+  
+  position: absolute;
+  top: -8vw;
+  left: 2vw;
+  
+  border-bottom: 1px solid red;
+  border-bottom-width: 1px;
+  
+  word-spacing: 1px;
+  letter-spacing: 3px;
+}
+
+#projects h4{
+  text-align: left;
+  font-size: 1vw;
+  color: white;
+  
+ top: -8vw;
+ left: 2vw;
+ 
+ word-spacing: 1px;
+ letter-spacing: 3px;
+ 
+}
+
+#projects-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  position: absolute;
+  top: 40vw;
+  left: 2vw;
+  
+  width: 100%;
+  height: auto;
+
+  font-size: 3vw;
+  word-spacing: 2px;
+  letter-spacing: 5px;
+  
+}
+
+#projectsbar a{
+  color: silver;
+  top: 0px;
+  bottom: 0px;
+  margin-right: 14.5vw;
+  margin-left: 14.5vw;
+  
+  text-decoration: none;
+  z-index: 10; 
+  
+}
+
+#projectsbar a:hover{
+color: red;
+  
+font-weight: bold;
+z-index: 2;
+}
+
+/* FINAL: Sección de proyectos */
+
+/* INICIO: Sección personal*/
+
+#contact {
+  width: 75%;
+  height: auto;
+  
+  position: absolute;
+  top: 92vw;
+  left: 22vw;
+  z-index: 2;
+}
+
+#contact h3 {
+  text-align: left;
+  font-size: 3vw;
+  color: white;
+  
+  position: absolute;
+  top: 1vw;
+  left: -20vw;
+  
+  border-bottom: 1px solid red;
+  border-bottom-width: 1px;
+  
+  word-spacing: 1px;
+  letter-spacing: 3px;
+}
+
+#contact h6 {
+  text-align: left;  
+  font-size: 1.5vw;
+  color: silver;
+  flex-wrap: wrap;
+  
+  position: absolute;
+  top: 7vw;
+  left: -18vw;
+  
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  
+  border-bottom: 1px solid dimgray; 
+  padding-bottom: 5vw;
+}
+
+#contact p{
+  text-align: left;  
+  font-size: 1.5vw;
+  color: silver;
+  flex-wrap: wrap;
+  
+  position: absolute;
+  top: 30vw;
+  left: -18vw;
+  
+  word-spacing: 2px;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  
+  border-bottom: 1px solid dimgray; 
+  padding-bottom: 5vw;
+}
+
+
+/* FINAL: Sección personal*/
+
+
+
+
+/*------------------------------*/
+
+/* INICIO: For mobile devices */
+
+@media only screen and (max-width: 800px)
+  
+{
+  header {
+    position: absolute;
+      top: 0px;
+    width: 100%;
+    
+    height: 2vw;
+    padding: 25px 0px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    background-color: black;
+    opacity: 0.7;
+    
+    z-index: 5;  
+  }
+  
+}
+
+/* FINAL: For mobile devices */
